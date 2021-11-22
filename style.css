@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+/*font-family: 'Open Sans', sans-serif;*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+/*MENU*/
+
+#menu li > a {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(107, 107, 107);
+}
+
+#menu form > button {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container-fluid {
+  justify-content: center !important;
+  padding: 20px;
+}
+
+form.d-flex {
+  max-width: 70%;
+  margin: auto;
+}
+
+.career:hover {
+  color: #1266f1;
+  cursor: pointer;
+}
+
+/*CAROUSEL*/
+
+.carousel-inner {
+  max-height: 30rem !important;
+  display: flex;
+  align-items: center;
+}
+
+/*MEDIA Q*/
+
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important;
+  }
+  .career-row {
+    width: 100% !important;
+    text-align: center;
+  }
+  .carousel-item {
+    transform: scale(1.5);
+  }
+}
+
+@media (max-width: 1200px) {
+  #local {
+    flex-wrap: wrap;
+    padding-top: 30px;
+  }
+  .wrapper {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+  }
+}
+
+/*MAP*/
+.map {
+  background: url(./img/map.png);
+  width: 100%;
+  height: 430px;
+  background-repeat: space;
+  display: flex;
+  background-position-x: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.wrapper {
+  width: 50%;
+  margin-left: 100px;
+  padding-top: 70px;
+}
+
+#title-form {
+  margin-top: 60px;
+}
+
+#container-form {
+  margin-bottom: 150px;
+}
+
+footer {
+  background: #1266f1;
+  color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.active {
+  visibility: visible;
+}
